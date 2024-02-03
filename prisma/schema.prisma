@@ -1,0 +1,21 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model schools {
+  id         Int      @id @default(autoincrement())
+  name       String   @db.VarChar(100)
+  address    String   @db.VarChar(300)
+  city       String   @db.VarChar(30)
+  state      String   @db.VarChar(30)
+  email      String   @db.VarChar(50)
+  phone      String   @db.VarChar(13)
+  image      String   @db.VarChar(150)
+  isFeatured String?  @db.VarChar(4)
+  created_at DateTime @default(now()) @db.Timestamp(0)
+}

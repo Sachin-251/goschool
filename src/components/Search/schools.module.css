@@ -1,0 +1,6 @@
+.search input{
+    background-color: var(--softBg);
+}
+.search select{
+    background-color: var(--softBg);
+}

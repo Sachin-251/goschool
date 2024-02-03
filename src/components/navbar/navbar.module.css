@@ -1,0 +1,7 @@
+.navMenu {
+    background-color: var(--softBg);
+    opacity: 0.95;
+}
+.close{
+    background-color: var(--softBg);
+}

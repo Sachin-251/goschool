@@ -1,0 +1,4 @@
+.card{
+    background-color: var(--softBg);
+    color: var(--softTextColor);
+}

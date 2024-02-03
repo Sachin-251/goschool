@@ -1,0 +1,13 @@
+.modal {
+    background-color: var(--softBg);
+}
+
+.formStyle input{
+    color: var(--textColor);
+    background-color: var(--bg);
+}
+
+.formStyle textarea {
+    color: var(--textColor);
+    background-color: var(--bg);
+}

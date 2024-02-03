@@ -1,0 +1,7 @@
+.contact input{
+    background-color: var(--softBg);
+}
+
+.contact textarea{
+    background-color: var(--softBg);
+}
