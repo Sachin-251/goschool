@@ -1,38 +1,75 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# GoSchool - School Finder Web App
+
+Welcome to GoSchool, your go-to solution for effortlessly finding the perfect school! 🎓🌐
+
+## Overview
+
+GoSchool is a dynamic School Finder Web App built using Next.js, MySQL, Prisma, and Tailwind CSS. It incorporates various libraries such as Prisma, Framer Motion, React Hook Form, React Hot Toast, and React Icons to enhance functionality and user experience.
+
+## Features
+
+- **Registration of Schools:** Easily register and manage school information.
+- **Live Search:** Get instant search results as you type, making the search process faster.
+- **Filter Search:** Tailor your search with precision using powerful filter options.
+- **Responsive Design:** Enjoy a seamless user experience on various devices.
+
+## Technologies Used
+
+- **Next.js:** A React framework for building efficient and scalable web applications.
+- **MySQL:** A powerful relational database management system.
+- **Prisma:** Modern database access for TypeScript and Node.js.
+- **Tailwind CSS:** A utility-first CSS framework for building modern designs.
+- **Framer Motion:** A React library for creating smooth animations.
+- **React Hook Form:** A library for managing forms in React.
+- **React Hot Toast:** A minimalistic toast notification library for React.
+- **React Icons:** A library of popular icons for React projects.
+
+## API Endpoints
+
+- **POST: /api/schools:** Register a new school.
+- **GET: /api/schools:** Retrieve a list of schools.
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+   ```bash
+   git clone https://github.com/Sachin-251/goschool.git
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+   ```bash
+   cd GoSchool
+   npm install
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Configure the database:
+
+   - Create a MySQL database and update the Prisma connection details in `prisma/schema.prisma`.
+
+4. Run the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Access the web app at [http://localhost:3000](http://localhost:3000).
+
+## Screenshots
 
 ![Screenshot_1](https://github.com/Sachin-251/goschool/blob/main/screenshots/01.png)
+![Screenshot_2](https://github.com/Sachin-251/goschool/blob/main/screenshots/02.png)
+![Screenshot_3](https://github.com/Sachin-251/goschool/blob/main/screenshots/03.png)
+![Screenshot_4](https://github.com/Sachin-251/goschool/blob/main/screenshots/05.png)
+![Screenshot_5](https://github.com/Sachin-251/goschool/blob/main/screenshots/07.png)
+![Screenshot_6](https://github.com/Sachin-251/goschool/blob/main/screenshots/08.png)
+![Screenshot_7](https://github.com/Sachin-251/goschool/blob/main/screenshots/09.png)
 
-## Learn More
+## Contributions
 
-To learn more about Next.js, take a look at the following resources:
+Contributions are welcome! Feel free to open issues and submit pull requests to help improve GoSchool.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
